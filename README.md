@@ -15,4 +15,15 @@ which python
 # /home/codespace/.venv/bin/python
 ```
 
+#### Start every new terminal in the virtual environment
 Add `source ~/.venv/bin/activate` at the end of `~/.bashrc`.
+
+#### Create the necessary files
+Create or copy the following files and their contents.
+
+```bash
+touch Makefile requirements.txt
+```
+
+#### Create a GitHub Workflow
+Create and manage [GitHub Actions workflows](https://docs.github.com/en/actions/using-workflows).
