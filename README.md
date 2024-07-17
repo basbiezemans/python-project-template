@@ -1,6 +1,6 @@
 [![Python application test with Github Actions](https://github.com/basbiezemans/integration-test-repo/actions/workflows/pythonapp.yml/badge.svg)](https://github.com/basbiezemans/integration-test-repo/actions/workflows/pythonapp.yml)
 
-CI test repository for a Python app.
+CI template repository for a Python app.
 
 ## Steps
 Create a virtual environment.
