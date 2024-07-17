@@ -18,6 +18,10 @@ which python
 #### Start every new terminal in the virtual environment
 Add `source ~/.venv/bin/activate` at the end of `~/.bashrc`.
 
+```bash
+echo 'source ~/.venv/bin/activate' >> ~/.bashrc
+```
+
 #### Create the necessary files
 Create or copy the following files and their contents.
 
