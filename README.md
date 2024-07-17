@@ -3,16 +3,13 @@
 CI test repository for a Python app.
 
 ## Steps
-
+Create a virtual environment.
 ```bash
 virtualenv ~/.venv
-
+```
+Activate the environment.
+```bash
 source ~/.venv/bin/activate
-
-# Check Python version
-which python
-
-# /home/codespace/.venv/bin/python
 ```
 
 #### Start every new terminal in the virtual environment
