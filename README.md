@@ -7,6 +7,10 @@ Create a virtual environment.
 ```bash
 virtualenv ~/.venv
 ```
+Or, in case `virtualenv` is not installed:
+```bash
+python -m venv ~/.venv
+```
 Activate the environment.
 ```bash
 source ~/.venv/bin/activate
