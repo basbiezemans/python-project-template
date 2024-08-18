@@ -2,15 +2,17 @@
 
 CI template repository for a Python app.
 
-## Steps
+## Virtual environment
 Create a virtual environment.
 ```bash
 virtualenv ~/.venv
 ```
+
 Or, in case `virtualenv` is not installed:
 ```bash
 python -m venv ~/.venv
 ```
+
 Activate the environment.
 ```bash
 source ~/.venv/bin/activate
@@ -22,13 +24,3 @@ Add `source ~/.venv/bin/activate` at the end of `~/.bashrc`.
 ```bash
 echo 'source ~/.venv/bin/activate' >> ~/.bashrc
 ```
-
-#### Create the necessary files
-Create or copy the following files and their contents.
-
-```bash
-touch Makefile requirements.txt
-```
-
-#### Create a GitHub Workflow
-Create and manage [GitHub Actions workflows](https://docs.github.com/en/actions/using-workflows).
